@@ -1,0 +1,11 @@
+# VS Code generated files/folders
+.vscode/
+.history/
+*.code-workspace
+
+# Sass files/folders
+.sass-cache/
+*.css.map
+
+# Other
+crx/
