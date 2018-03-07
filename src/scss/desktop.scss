@@ -1,0 +1,86 @@
+// regexp("https:\\/\\/(.+[.])teamdynamix.com\\/(TDNext)\\/(?!Apps).*")
+
+@import "variables";
+
+.nav > li > a:hover {
+    background-color: $color-shade-light;
+}
+
+.sortable-item .nav > li > a:hover {
+    background-color: transparent;
+}
+
+#divTabHeader a,
+#divTabHeader button,
+#divTabHeader button span,
+#divHeader .btn,
+.organization-link a,
+i.fa {
+    color: $base-font-color;
+}
+
+.feed-item,
+.sortable-iitem,
+table.report-viewer,
+.ui-tabs-active a.ui-tabs-anchor,
+.sortable-item span.font-md {
+    color: $color-shade-light;
+}
+
+#divHeader,
+#divTabHeader,
+#tabs,
+ul.dropdown-menu {
+    background-color: $color-shade-dark;
+    border-color: $color-shade-darkest;
+}
+
+.panel {
+    border-color: $color-shade-mid;
+}
+
+.ModuleContent {
+    background-color: $base-font-color;
+    color: $color-shade-darkest;
+
+    i.fa,
+    a:link,
+    a:visited,
+    a:active {
+      color: $color-shade-mid;
+    }
+
+    i.fa:hover,
+    a:hover,
+    .nav-pills li:hover * {
+      color: $base-link-color-hover
+    }
+}
+
+.sortable-item,
+.feed-item {
+    border-bottom: 1px solid $color-highlight;
+}
+
+.feed-reply {
+    border-color: $base-link-color;
+    background-color: lighten($base-font-color, 50%);
+}
+
+.profile-image,
+.profile-image img {
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    object-fit: cover;
+}
+
+// ul.dropdown-menu {
+//     background-color: $color-shade-dark;
+// }
+
+.panel-heading {
+    background-color: $color-shade-darkest;
+    border-color: $color-shade-dark;
+    color: $base-font-color;
+}

@@ -1,0 +1,21 @@
+// regexp("https:\\/\\/(.+[.])teamdynamix.com\\/.*")
+
+@import "variables";
+
+body {
+  font-family: $system-font-stack;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: subpixel-antialiased;
+  background-color: $color-shade-mid;
+  color: $base-font-color;
+}
+
+a,
+a:link,
+a:visited,
+a:active {
+    color: $base-link-color;
+}
+a:hover {
+    color: $base-link-color-hover;
+}
