@@ -2,6 +2,8 @@
 
 ## :construction: Work in Progress
 
+![TDX Improved Colors](tdx-improved.png)
+
 We use [TeamDynamix](https://www.teamdynamix.com) for issue tracking where I'm currently contracting.
 I'm not the biggest fan of the software but have to spend a fair amount of time in it daily so I'll be
 addressing some of the pain points I've hit while using it here.
@@ -29,7 +31,7 @@ Stylus these days but formerly used Stylish. Both are available for most browser
 an option to automatically check for updates to installed userstyles - I'm not sure if that feature
 is available in Stylish or not.
 
-The userstyle can be installed via userstyles.org [https://userstyles.org/styles/156692/tdx-improved](https://userstyles.org/styles/156692/tdx-improved)
+The userstyle can be installed via userstyles.org ([https://userstyles.org/styles/156692/tdx-improved](https://userstyles.org/styles/156692/tdx-improved))
 and the latest version will always be available there.
 
 ---
