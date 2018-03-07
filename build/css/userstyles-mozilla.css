@@ -6,26 +6,20 @@
     -webkit-font-smoothing: subpixel-antialiased !important;
     background-color: #454c5c !important;
     color: #d3dae3 !important; }
-
   a,
   a:link,
-  a:visited,
-  a:active {
+  a:active,
+  a:visited {
     color: #90939b !important; }
-
   a:hover {
-    color: #d26911 !important; }
-
-}
+    color: #d26911 !important; } }
 
 @-moz-document regexp("https:\\/\\/(.+[.])teamdynamix.com\\/(TDNext)\\/(?!Apps).*") {
   /* desktop-styles */
   .nav > li > a:hover {
     background-color: #6b6f79 !important; }
-
   .sortable-item .nav > li > a:hover {
     background-color: transparent !important; }
-
   #divTabHeader a,
   #divTabHeader button,
   #divTabHeader button span,
@@ -33,14 +27,12 @@
   .organization-link a,
   i.fa {
     color: #d3dae3 !important; }
-
   .feed-item,
   .sortable-iitem,
   table.report-viewer,
   .ui-tabs-active a.ui-tabs-anchor,
   .sortable-item span.font-md {
     color: #6b6f79 !important; }
-
   #divHeader,
   #divTabHeader,
   #tabs,
@@ -48,10 +40,8 @@
   ul.dropdown-menu {
     background-color: #2a2f39 !important;
     border-color: #1d2027 !important; }
-
   .panel {
     border-color: #454c5c !important; }
-
   .ModuleContent {
     background-color: #d3dae3 !important;
     color: #1d2027 !important; }
@@ -64,28 +54,22 @@
     .ModuleContent a:hover,
     .ModuleContent .nav-pills li:hover * {
       color: #d26911 !important; }
-
   .sortable-item,
   .feed-item {
     border-bottom: 1px solid #949494 !important; }
-
   .feed-reply {
     border-color: #90939b !important;
-    background-color: white !important; }
-
+    background-color: #f2f4f7 !important; }
   .profile-image,
   .profile-image img {
     border-radius: 50% !important;
     height: 60px !important;
     width: 60px !important;
     object-fit: cover !important; }
-
   .panel-heading {
     background-color: #1d2027 !important;
     border-color: #2a2f39 !important;
-    color: #d3dae3 !important; }
-
-}
+    color: #d3dae3 !important; } }
 
 @-moz-document regexp("https:\\/\\/(.+[.])teamdynamix.com\\/TDNext\\/Apps\\/Projects\\/Plans\\/CardWall\\/.*") {
   /* cardwall styles */
@@ -94,13 +78,11 @@
     border-color: #1d2027 !important; }
     .navbar-default .navbar-brand {
       color: #d3dae3 !important; }
-
   a.label,
   a.badge,
   .label a,
   .badge a {
     color: #d3dae3 !important; }
-
   .tdy-list > .panel {
     background-color: #2a2f39 !important;
     border-color: #1d2027 !important; }
@@ -115,13 +97,9 @@
         line-height: 1.2em !important;
         letter-spacing: 0.1em !important;
         word-spacing: 0.1em !important; }
-
   div.profile-image.board,
   div.profile-image.board img {
     border-radius: 50% !important; }
-
   .panel-default > .panel-heading {
     border-color: #6b6f79 !important;
-    background-color: #d3dae3 !important; }
-
-  }
+    background-color: #d3dae3 !important; } }
