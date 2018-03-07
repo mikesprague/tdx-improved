@@ -1,22 +1,27 @@
 {
   "name": "tdx-improved",
-  "version": "0.0.1",
-  "description": "",
+  "version": "0.1.0",
+  "description": "Dark userstyle for TeamDynamix",
+  "private": true,
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "scss": "node-sass --watch src/scss -o build/css"
+    "sass:watch": "node-sass --watch src/scss -o build/css",
+    "sass:compile": "node-sass src/scss -o build/css"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mikesprague/tdx-improved.git"
   },
-  "author": "Michael Sprague",
+  "author": {
+    "name": "Michael Sprague",
+    "email": "mikesprague@gmail.com"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/mikesprague/tdx-improved/issues"
   },
-  "homepage": "https://github.com/mikesprague/tdx-improved#readme",
+  "homepage": "https://github.com/mikesprague/tdx-improved",
   "dependencies": {
     "node-sass": "^4.7.2"
   }
