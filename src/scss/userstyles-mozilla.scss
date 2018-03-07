@@ -1,14 +1,19 @@
-@-moz-document regexp("https:\\/\\/(.+[.])teamdynamix.com\\/.*") {
-  /* global-styles */
+@-moz-document regexp("https:\/\/(.+[.])teamdynamix.com\/.*") {
+  // global styles
   @import "global";
 }
 
-@-moz-document regexp("https:\\/\\/(.+[.])teamdynamix.com\\/(TDNext)\\/(?!Apps).*") {
-  /* desktop-styles */
+@-moz-document regexp("https:\/\/(.+[.])teamdynamix.com\/(TDNext)\/(?!Apps).*"), regexp("https:\/\/(.+[.])teamdynamix.com\/(TDNext)\/(Apps)\/[0-9]+\/(Tickets).*") {
+  // desktop styles
   @import "desktop";
 }
 
-@-moz-document regexp("https:\\/\\/(.+[.])teamdynamix.com\\/TDNext\\/Apps\\/Projects\\/Plans\\/CardWall\\/.*") {
-  /* cardwall styles */
+@-moz-document regexp("https:\/\/(.+[.])teamdynamix.com\/TDNext\/Apps\/Projects\/Plans\/CardWall\/.*") {
+  // cardwall styles
   @import "cardwall";
+}
+
+@-moz-document regexp("https:\/\/(.+[.])teamdynamix.com\/(TDNext)\/(Apps)\/[0-9]+\/(Tickets).*") {
+  // individual ticket popup styles not already part of desktop styles
+  // @import "ticket";
 }
