@@ -1,0 +1,14 @@
+@-moz-document regexp("https:\\/\\/(.+[.])teamdynamix.com\\/.*") {
+  /* global-styles */
+
+}
+
+@-moz-document regexp("https:\\/\\/(.+[.])teamdynamix.com\\/(TDNext)\\/(?!Apps).*") {
+  /* desktop-styles */
+
+}
+
+@-moz-document regexp("https:\\/\\/(.+[.])teamdynamix.com\\/TDNext\\/Apps\\/Projects\\/Plans\\/CardWall\\/.*") {
+  /* cardwall styles */
+
+}
