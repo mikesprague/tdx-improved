@@ -16,7 +16,7 @@
 #divHeader .btn,
 .organization-link a,
 i.fa {
-    color: $base-font-color !important;
+  color: $base-font-color !important;
 }
 
 .feed-item,
@@ -24,7 +24,7 @@ i.fa {
 table.report-viewer,
 .ui-tabs-active a.ui-tabs-anchor,
 .sortable-item span.font-md {
-    color: $color-shade-light !important;
+  color: $color-shade-light !important;
 }
 
 #divHeader,
@@ -32,52 +32,52 @@ table.report-viewer,
 #tabs,
 #tabsList,
 ul.dropdown-menu {
-    background-color: $color-shade-dark !important;
-    border-color: $color-shade-darkest !important;
+  background-color: $color-shade-dark !important;
+  border-color: $color-shade-darkest !important;
 }
 
 .panel {
-    border-color: $color-shade-mid !important;
+  border-color: $color-shade-mid !important;
 }
 
 .ModuleContent {
-    background-color: $base-font-color !important;
-    color: $color-shade-darkest !important;
+  background-color: $base-font-color !important;
+  color: $color-shade-darkest !important;
 
-    i.fa,
-    a:link,
-    a:visited,
-    a:active {
-      color: $color-shade-mid !important;
-    }
+  i.fa,
+  a:link,
+  a:visited,
+  a:active {
+    color: $color-shade-mid !important;
+  }
 
-    i.fa:hover,
-    a:hover,
-    .nav-pills li:hover * {
-      color: $base-link-color-hover !important;
-    }
+  i.fa:hover,
+  a:hover,
+  .nav-pills li:hover * {
+    color: $base-link-color-hover !important;
+  }
 }
 
 .sortable-item,
 .feed-item {
-    border-bottom: 1px solid $color-highlight !important;
+  border-bottom: 1px solid $color-highlight !important;
 }
 
 .feed-reply {
-    border-color: $base-link-color !important;
-    background-color: lighten($base-font-color, 10%) !important;
+  border-color: $base-link-color !important;
+  background-color: lighten($base-font-color, 10%) !important;
 }
 
 .profile-image,
 .profile-image img {
-    border-radius: 50% !important;
-    height: 60px !important;
-    width: 60px !important;
-    object-fit: cover !important;
+  border-radius: 50% !important;
+  height: 60px !important;
+  width: 60px !important;
+  object-fit: cover !important;
 }
 
 .panel-heading {
-    background-color: $color-shade-darkest !important;
-    border-color: $color-shade-dark !important;
-    color: $base-font-color !important;
+  background-color: $color-shade-darkest !important;
+  border-color: $color-shade-dark !important;
+  color: $base-font-color !important;
 }

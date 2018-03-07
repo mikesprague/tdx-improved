@@ -3,19 +3,19 @@
 @import "variables";
 
 .navbar-default {
-    background-color: $color-shade-dark !important;
-    border-color: $color-shade-darkest !important;
+  background-color: $color-shade-dark !important;
+  border-color: $color-shade-darkest !important;
 
-    & .navbar-brand {
-      color: $base-font-color !important;
-    }
+  & .navbar-brand {
+    color: $base-font-color !important;
+  }
 }
 
 a.label,
 a.badge,
 .label a,
 .badge a {
-    color: $base-font-color !important;
+  color: $base-font-color !important;
 }
 
 .tdy-list {
@@ -42,9 +42,9 @@ a.badge,
 
 div.profile-image.board,
 div.profile-image.board img {
-    border-radius: 50% !important;
+  border-radius: 50% !important;
 }
 .panel-default > .panel-heading {
-    border-color: $color-shade-light !important;
-    background-color: $base-font-color !important;
+  border-color: $color-shade-light !important;
+  background-color: $base-font-color !important;
 }
