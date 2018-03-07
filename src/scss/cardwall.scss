@@ -1,3 +1,50 @@
 // regexp("https:\\/\\/(.+[.])teamdynamix.com\\/TDNext\\/Apps\\/Projects\\/Plans\\/CardWall\\/.*")
 
 @import "variables";
+
+.navbar-default {
+    background-color: $color-shade-dark;
+    border-color: $color-shade-darkest;
+
+    & .navbar-brand {
+      color: $base-font-color;
+    }
+}
+
+a.label,
+a.badge,
+.label a,
+.badge a {
+    color: $base-font-color;
+}
+
+.tdy-list {
+  & > .panel {
+    background-color: $color-shade-dark;
+    border-color: $color-shade-darkest;
+
+    & > .panel-heading {
+      background-color: $color-shade-darkest;
+      border-color: $color-shade-dark;
+
+      & h4 {
+        color: $base-font-color;
+        text-transform: uppercase !important;
+        font-weight: 500 !important;
+        font-size: 0.9em !important;
+        line-height: 1.2em !important;
+        letter-spacing: 0.1em !important;
+        word-spacing: 0.1em !important;
+      }
+    }
+  }
+}
+
+div.profile-image.board,
+div.profile-image.board img {
+    border-radius: 50% !important;
+}
+.panel-default > .panel-heading {
+    border-color: $color-shade-light;
+    background-color: $base-font-color;
+}
