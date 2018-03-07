@@ -1,0 +1,23 @@
+{
+  "name": "tdx-improved",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch src/scss -o build/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikesprague/tdx-improved.git"
+  },
+  "author": "Michael Sprague",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mikesprague/tdx-improved/issues"
+  },
+  "homepage": "https://github.com/mikesprague/tdx-improved#readme",
+  "dependencies": {
+    "node-sass": "^4.7.2"
+  }
+}
