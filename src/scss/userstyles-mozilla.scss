@@ -1,19 +1,19 @@
-@-moz-document regexp("https:\/\/(.+[.])teamdynamix.com\/.*") {
+@-moz-document regexp("(?:https:\/\/)(?:.+[.])(?:teamdynamix.com\/).*") {
   // global styles
   @import "global";
 }
 
-@-moz-document regexp("https:\/\/(.+[.])teamdynamix.com\/(TDNext)\/(?!Apps).*"), regexp("https:\/\/(.+[.])teamdynamix.com\/(TDNext)\/(Apps)\/[0-9]+\/(Tickets).*") {
+@-moz-document regexp("(?:https:\/\/)(?:.+[.])(?:teamdynamix.com\/TDNext\/)(?!Apps).*"), regexp("(?:https:\/\/)(?:.+[.])(?:teamdynamix.com\/TDNext\/Apps\/)[0-9]+(?:\/Tickets).*") {
   // desktop styles
   @import "desktop";
 }
 
-@-moz-document regexp("https:\/\/(.+[.])teamdynamix.com\/TDNext\/Apps\/Projects\/Plans\/CardWall\/.*") {
+@-moz-document regexp("(?:https:\/\/)(?:.+[.])(?:teamdynamix.com\/TDNext\/Apps\/Projects\/Plans\/CardWall\/).*") {
   // cardwall styles
   @import "cardwall";
 }
 
-@-moz-document regexp("https:\/\/(.+[.])teamdynamix.com\/(TDNext)\/(Apps)\/[0-9]+\/(Tickets).*") {
-  // individual ticket popup styles not already part of desktop styles
-  // @import "ticket";
+@-moz-document regexp("(?:https:\/\/)(?:.+[.])(?:teamdynamix.com\/TDNext\/Apps\/)[0-9]+(?:\/Tickets).*") {
+  // individual ticket popup styles not already part of desktop/global styles
+  @import "ticket";
 }
