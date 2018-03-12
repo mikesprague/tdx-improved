@@ -1,6 +1,6 @@
 {
   "name": "tdx-improved",
-  "version": "0.1.0",
+  "version": "0.0.3",
   "description": "Dark userstyle for TeamDynamix",
   "private": true,
   "main": "index.js",
