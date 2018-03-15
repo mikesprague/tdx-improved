@@ -1,31 +1,49 @@
 .nav > li > a:hover {
   background-color: #6b6f79 !important; }
 
-.sortable-item .nav > li > a:hover {
+#divTabHeader button {
+  background-color: transparent !important; }
+  #divTabHeader button:hover {
+    background-color: #6b6f79 !important; }
+
+.sortable-item .nav > li > a:hover,
+#upItemCounts .nav > li > a:hover {
   background-color: transparent !important; }
 
-#divTabHeader a,
-#divTabHeader button,
-#divTabHeader button span,
-#divHeader .btn,
+.navbar a,
+.navbar button,
+.navbar button span,
+.navbar .btn,
+.navbar .btn-primary,
+#divHeader h1,
+.thTicket_spnTitle,
+#upItemCounts .nav,
 .organization-link a,
-i.fa {
+.tdbar button,
+.tdbar button span,
+.fa {
   color: #d3dae3 !important; }
 
 .feed-item,
 .sortable-iitem,
-table.report-viewer,
-.ui-tabs-active a.ui-tabs-anchor,
-.sortable-item span.font-md {
+.report-viewer,
+.ui-tabs-active .ui-tabs-anchor,
+.sortable-item .font-md {
   color: #6b6f79 !important; }
 
 #divHeader,
 #divTabHeader,
 #tabs,
 #tabsList,
-ul.dropdown-menu {
+.dropdown-menu {
   background-color: #2a2f39 !important;
   border-color: #1d2027 !important; }
+
+.ui-tabs-nav li,
+.ui-tabs-nav li a,
+.nav-tabs li,
+.nav-tabs li a {
+  border: none !important; }
 
 .panel {
   border-color: #454c5c !important; }
@@ -33,14 +51,16 @@ ul.dropdown-menu {
 .ModuleContent {
   background-color: #d3dae3 !important;
   color: #1d2027 !important; }
-  .ModuleContent i.fa,
+  .ModuleContent .fa:link, .ModuleContent .fa:visited, .ModuleContent .fa:active,
   .ModuleContent a:link,
   .ModuleContent a:visited,
   .ModuleContent a:active {
     color: #454c5c !important; }
-  .ModuleContent i.fa:hover,
-  .ModuleContent a:hover,
-  .ModuleContent .nav-pills li:hover * {
+  .ModuleContent .fa:hover,
+  .ModuleContent a:hover {
+    color: #d26911 !important; }
+  .ModuleContent .nav-pills li:hover,
+  .ModuleContent .nav-tabs li:hover {
     color: #d26911 !important; }
 
 .sortable-item,
@@ -48,15 +68,15 @@ ul.dropdown-menu {
   border-bottom: 1px solid #949494 !important; }
 
 .feed-reply {
-  border-color: #90939b !important;
-  background-color: #f2f4f7 !important; }
+  background-color: #f2f4f7 !important;
+  border-color: #90939b !important; }
 
 .profile-image,
 .profile-image img {
   border-radius: 50% !important;
   height: 60px !important;
-  width: 60px !important;
-  object-fit: cover !important; }
+  object-fit: cover !important;
+  width: 60px !important; }
 
 .panel-heading {
   background-color: #1d2027 !important;
