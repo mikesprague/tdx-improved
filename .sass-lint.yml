@@ -12,6 +12,7 @@ rules:
     - ignore: # since we're theming someone else's content, we can't control naming
       - 'thTicket_spnTitle'
       - 'ModuleContent'
+      - 'TaskBarItem'
   force-element-nesting: 0
   no-ids: 0
   no-important: 0
