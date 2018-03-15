@@ -8,7 +8,7 @@
   }
 }
 
-#divTabHeader {
+.tdbar {
   button {
     background-color: transparent !important;
 
@@ -72,8 +72,8 @@
   background-color: $base-font-color !important;
   color: $color-shade-darkest !important;
 
-  .fa,
   a {
+    .fa,
     &:link,
     &:visited,
     &:active {

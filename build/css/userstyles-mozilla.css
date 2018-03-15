@@ -16,9 +16,9 @@
 @-moz-document regexp("(?:https:\/\/)(?:.+[.])(?:teamdynamix.com\/TDNext\/)(?!Apps).*"), regexp("(?:https:\/\/)(?:.+[.])(?:teamdynamix.com\/TDNext\/Apps\/)[0-9]+(?:\/Tickets).*") {
   .nav > li > a:hover {
     background-color: #6b6f79 !important; }
-  #divTabHeader button {
+  .tdbar button {
     background-color: transparent !important; }
-    #divTabHeader button:hover {
+    .tdbar button:hover {
       background-color: #6b6f79 !important; }
   .sortable-item .nav > li > a:hover,
   #upItemCounts .nav > li > a:hover {
@@ -59,12 +59,8 @@
   .ModuleContent {
     background-color: #d3dae3 !important;
     color: #1d2027 !important; }
-    .ModuleContent .fa:link, .ModuleContent .fa:visited, .ModuleContent .fa:active,
-    .ModuleContent a:link,
-    .ModuleContent a:visited,
-    .ModuleContent a:active {
+    .ModuleContent a .fa, .ModuleContent a:link, .ModuleContent a:visited, .ModuleContent a:active {
       color: #454c5c !important; }
-    .ModuleContent .fa:hover,
     .ModuleContent a:hover {
       color: #d26911 !important; }
     .ModuleContent .nav-pills li:hover,
