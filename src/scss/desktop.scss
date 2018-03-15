@@ -2,28 +2,49 @@
 
 @import "variables";
 
-.nav > li > a:hover {
+.nav > li > a {
+  &:hover {
     background-color: $color-shade-light !important;
+  }
 }
 
-.sortable-item .nav > li > a:hover {
+#divTabHeader {
+  button {
     background-color: transparent !important;
+
+    &:hover {
+      background-color: $color-shade-light !important;
+    }
+  }
 }
 
-#divTabHeader a,
-#divTabHeader button,
-#divTabHeader button span,
-#divHeader .btn,
+.sortable-item .nav > li > a,
+#upItemCounts .nav > li > a {
+  &:hover {
+    background-color: transparent !important;
+  }
+}
+
+.navbar a,
+.navbar button,
+.navbar button span,
+.navbar .btn,
+.navbar .btn-primary,
+#divHeader h1,
+.thTicket_spnTitle,
+#upItemCounts .nav,
 .organization-link a,
-i.fa {
+.tdbar button,
+.tdbar button span,
+.fa {
   color: $base-font-color !important;
 }
 
 .feed-item,
 .sortable-iitem,
-table.report-viewer,
-.ui-tabs-active a.ui-tabs-anchor,
-.sortable-item span.font-md {
+.report-viewer,
+.ui-tabs-active .ui-tabs-anchor,
+.sortable-item .font-md {
   color: $color-shade-light !important;
 }
 
@@ -31,9 +52,16 @@ table.report-viewer,
 #divTabHeader,
 #tabs,
 #tabsList,
-ul.dropdown-menu {
+.dropdown-menu {
   background-color: $color-shade-dark !important;
   border-color: $color-shade-darkest !important;
+}
+
+.ui-tabs-nav li,
+.ui-tabs-nav li a,
+.nav-tabs li,
+.nav-tabs li a {
+  border: none !important;
 }
 
 .panel {
@@ -44,17 +72,26 @@ ul.dropdown-menu {
   background-color: $base-font-color !important;
   color: $color-shade-darkest !important;
 
-  i.fa,
-  a:link,
-  a:visited,
-  a:active {
-    color: $color-shade-mid !important;
+  .fa,
+  a {
+    &:link,
+    &:visited,
+    &:active {
+      color: $color-shade-mid !important;
+    }
+
+    &:hover {
+      color: $base-link-color-hover !important;
+    }
   }
 
-  i.fa:hover,
-  a:hover,
-  .nav-pills li:hover * {
-    color: $base-link-color-hover !important;
+  .nav-pills,
+  .nav-tabs {
+    li {
+      &:hover, {
+        color: $base-link-color-hover !important;
+      }
+    }
   }
 }
 
@@ -64,16 +101,16 @@ ul.dropdown-menu {
 }
 
 .feed-reply {
-  border-color: $base-link-color !important;
   background-color: lighten($base-font-color, 10%) !important;
+  border-color: $base-link-color !important;
 }
 
 .profile-image,
 .profile-image img {
   border-radius: 50% !important;
   height: 60px !important;
-  width: 60px !important;
   object-fit: cover !important;
+  width: 60px !important;
 }
 
 .panel-heading {
