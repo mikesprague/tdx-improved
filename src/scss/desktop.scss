@@ -9,11 +9,21 @@
 }
 
 .tdbar {
-  button {
+  .btn {
     background-color: transparent !important;
 
     &:hover {
       background-color: $color-shade-light !important;
+      text-decoration: none !important;
+    }
+  }
+}
+
+.tdbar-settings {
+  .btn {
+    &:hover {
+      background-color: transparent !important;
+      text-decoration: none !important;
     }
   }
 }
