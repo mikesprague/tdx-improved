@@ -16,10 +16,14 @@
 @-moz-document regexp("(?:https:\/\/)(?:.+[.])(?:teamdynamix.com\/TDNext\/)(?!Apps).*"), regexp("(?:https:\/\/)(?:.+[.])(?:teamdynamix.com\/TDNext\/Apps\/)[0-9]+(?:\/Tickets).*") {
   .nav > li > a:hover {
     background-color: #6b6f79 !important; }
-  .tdbar button {
+  .tdbar .btn {
     background-color: transparent !important; }
-    .tdbar button:hover {
-      background-color: #6b6f79 !important; }
+    .tdbar .btn:hover {
+      background-color: #6b6f79 !important;
+      text-decoration: none !important; }
+  .tdbar-settings .btn:hover {
+    background-color: transparent !important;
+    text-decoration: none !important; }
   .sortable-item .nav > li > a:hover,
   #upItemCounts .nav > li > a:hover {
     background-color: transparent !important; }
