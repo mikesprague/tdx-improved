@@ -23,10 +23,9 @@
     "url": "https://github.com/mikesprague/tdx-improved/issues"
   },
   "homepage": "https://github.com/mikesprague/tdx-improved",
-  "dependencies": {
-    "node-sass": "^4.9.0"
-  },
+  "dependencies": {},
   "devDependencies": {
+    "node-sass": "^4.11.0",
     "sass-lint": "^1.12.1"
   }
 }
