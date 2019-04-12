@@ -2,6 +2,7 @@
 
 [![Known Vulnerabilities](https://snyk.io/test/github/mikesprague/tdx-improved/badge.svg?targetFile=package.json)](https://snyk.io/test/github/mikesprague/tdx-improved?targetFile=package.json)
 [![Greenkeeper badge](https://badges.greenkeeper.io/mikesprague/tdx-improved.svg)](https://greenkeeper.io/)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fmikesprague%2Ftdx-improved.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fmikesprague%2Ftdx-improved?ref=badge_shield)
 
 ## :construction: Work in Progress
 
@@ -71,3 +72,6 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fmikesprague%2Ftdx-improved.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fmikesprague%2Ftdx-improved?ref=badge_large)
