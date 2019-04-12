@@ -1,5 +1,7 @@
 # TDX (TeamDynamix) Improved
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/mikesprague/tdx-improved.svg)](https://greenkeeper.io/)
+
 ## :construction: Work in Progress
 
 ![TDX Improved Colors](tdx-improved.png)
