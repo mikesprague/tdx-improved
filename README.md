@@ -1,5 +1,6 @@
 # TDX (TeamDynamix) Improved
 
+[![Known Vulnerabilities](https://snyk.io/test/github/mikesprague/tdx-improved/badge.svg?targetFile=package.json)](https://snyk.io/test/github/mikesprague/tdx-improved?targetFile=package.json)
 [![Greenkeeper badge](https://badges.greenkeeper.io/mikesprague/tdx-improved.svg)](https://greenkeeper.io/)
 
 ## :construction: Work in Progress
