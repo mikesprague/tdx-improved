@@ -2,6 +2,7 @@
 
 [![Known Vulnerabilities](https://snyk.io/test/github/mikesprague/tdx-improved/badge.svg?targetFile=package.json)](https://snyk.io/test/github/mikesprague/tdx-improved?targetFile=package.json)
 [![Greenkeeper badge](https://badges.greenkeeper.io/mikesprague/tdx-improved.svg)](https://greenkeeper.io/)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fmikesprague%2Ftdx-improved.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fmikesprague%2Ftdx-improved?ref=badge_shield)
 
 ## :construction: Work in Progress
 
@@ -49,6 +50,8 @@ for these enhancements currently.
 ---
 
 ### License
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fmikesprague%2Ftdx-improved.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fmikesprague%2Ftdx-improved?ref=badge_large)
 
 MIT License
 
