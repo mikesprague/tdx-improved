@@ -26,7 +26,7 @@
   },
   "homepage": "https://github.com/mikesprague/tdx-improved",
   "dependencies": {
-    "snyk": "^1.173.0"
+    "snyk": "^1.174.1"
   },
   "devDependencies": {
     "node-sass": "^4.12.0",
