@@ -10,7 +10,7 @@
     "sass:compile": "node-sass src/scss -o build/css",
     "sass:lint": "sass-lint --verbose --no-exit",
     "snyk-protect": "snyk protect",
-    "prepublish": "yarn snyk-protect"
+    "prepublish": "npm run snyk-protect; yarn snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -26,10 +26,11 @@
   },
   "homepage": "https://github.com/mikesprague/tdx-improved",
   "dependencies": {
-    "snyk": "^1.185.5"
+    "snyk": "^1.189.0"
   },
   "devDependencies": {
     "node-sass": "^4.12.0",
     "sass-lint": "^1.13.1"
-  }
+  },
+  "snyk": true
 }
