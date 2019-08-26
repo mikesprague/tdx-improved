@@ -51,6 +51,8 @@ for these enhancements currently.
 
 ### License
 
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fmikesprague%2Ftdx-improved.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fmikesprague%2Ftdx-improved?ref=badge_large)
+
 MIT License
 
 Copyright (c) 2018 Mike Sprague

@@ -1,6 +1,6 @@
 {
   "name": "tdx-improved",
-  "version": "0.0.4",
+  "version": "0.0.1",
   "description": "Dark userstyle for TeamDynamix",
   "private": true,
   "main": "index.js",
@@ -8,7 +8,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "sass:watch": "node-sass --watch src/scss -o build/css",
     "sass:compile": "node-sass src/scss -o build/css",
-    "sass:lint": "sass-lint --verbose --no-exit"
+    "sass:lint": "sass-lint --verbose --no-exit",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect; yarn snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -23,9 +25,12 @@
     "url": "https://github.com/mikesprague/tdx-improved/issues"
   },
   "homepage": "https://github.com/mikesprague/tdx-improved",
-  "dependencies": {},
+  "dependencies": {
+    "snyk": "^1.192.3"
+  },
   "devDependencies": {
-    "node-sass": "^4.11.0",
-    "sass-lint": "^1.12.1"
-  }
+    "node-sass": "^4.12.0",
+    "sass-lint": "^1.13.1"
+  },
+  "snyk": true
 }
