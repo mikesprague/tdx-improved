@@ -10,7 +10,7 @@
     "sass:compile": "node-sass src/scss -o build/css",
     "sass:lint": "sass-lint --verbose --no-exit",
     "snyk-protect": "snyk protect",
-    "prepublish": "yarn snyk-protect"
+    "prepublish": "npm run snyk-protect && yarn snyk-protect"
   },
   "repository": {
     "type": "git",
