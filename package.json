@@ -29,7 +29,7 @@
     "snyk": "^1.240.0"
   },
   "devDependencies": {
-    "node-sass": "^4.12.0",
+    "node-sass": "^4.13.0",
     "sass-lint": "^1.13.1"
   },
   "snyk": true
