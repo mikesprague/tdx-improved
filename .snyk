@@ -6,10 +6,16 @@ patch:
   SNYK-JS-LODASH-450202:
     - snyk > snyk-nodejs-lockfile-parser > lodash:
         patched: '2019-07-04T03:44:53.109Z'
+      snyk > inquirer > lodash:
+        patched: '2020-01-22T18:41:34.161Z'
     - snyk > lodash:
         patched: '2019-07-04T03:44:53.109Z'
+      snyk > snyk-config > lodash:
+        patched: '2020-01-22T18:41:34.161Z'
     - snyk > snyk-nuget-plugin > lodash:
         patched: '2019-07-04T03:44:53.109Z'
+      snyk > snyk-nuget-plugin > dotnet-deps-parser > lodash:
+        patched: '2020-01-22T18:41:34.161Z'
     - snyk > @snyk/dep-graph > lodash:
         patched: '2019-07-04T03:44:53.109Z'
     - snyk > inquirer > lodash:
